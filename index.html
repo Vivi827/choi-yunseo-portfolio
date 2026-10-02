@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>최윤서 · AI PM Portfolio</title>
+  <meta name="description" content="AI PM · 서비스 기획자 최윤서의 포트폴리오. 좋은 질문에서 사랑받는 프로덕트까지. AI 인터랙션 연구, LLM 앱 기획·개발, XR 경험 설계, UX 리서치.">
+  <meta name="theme-color" content="#0D0F14">
+  <meta property="og:title" content="최윤서 · Ask well, build loved.">
+  <meta property="og:description" content="좋은 질문에서, 사랑받는 프로덕트까지. AI PM · 서비스 기획자 최윤서">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og.jpg">
+  <meta property="og:locale" content="ko_KR">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!reduce) d.classList.add('motion-on');
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#work">본문으로 건너뛰기</a>
+  <div class="progress" aria-hidden="true"><i></i></div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="최윤서 포트폴리오, 맨 위로">
+      <span>ys</span><svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l1.6 8.1L20.5 3.5 15.9 10.4 24 12l-8.1 1.6 4.6 6.9-6.9-4.6L12 24l-1.6-8.1-6.9 4.6 4.6-6.9L0 12l8.1-1.6L3.5 3.5l6.9 4.6z"/></svg>
+    </a>
+    <nav aria-label="주요 메뉴">
+      <a href="#work">Work</a>
+      <a href="#demo">Demo</a>
+      <a href="#about">About</a>
+      <a href="#archive">Archive</a>
+    </nav>
+    <a class="header-cta" href="#contact">Contact</a>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section id="top" class="hero pad" data-theme="dark">
+      <p class="eyebrow hero-eyebrow"><span>AI PM · SERVICE PLANNER</span><span>PORTFOLIO 2026</span></p>
+      <h1 class="hero-title" aria-label="Ask well. Build loved.">
+        <span class="line"><span>ASK WELL.</span></span>
+        <span class="line"><span>BUILD</span></span>
+        <span class="line"><span>LOVED<em class="dot">.</em></span></span>
+      </h1>
+      <div class="hero-grid">
+        <div class="hero-copy" data-reveal>
+          <h2>좋은 질문에서,<br>사랑받는 프로덕트까지.</h2>
+          <p>사용자를 만나 묻고, 흐름을 설계하고,<br>필요하면 직접 코드로 만들어 확인합니다.<br><strong>기술과 디자인, 이야기를 함께 이해하는 AI PM, 최윤서입니다.</strong></p>
+        </div>
+        <aside class="hero-aside" data-reveal>
+          <div class="portrait" role="img" aria-label="프로필 사진 자리">
+            <span class="todo-box">〔프로필 사진〕</span>
+          </div>
+          <dl class="pillars">
+            <div><dt>AI</dt><dd>LLM 앱 기획·개발<br>AI 인터랙션 연구</dd></div>
+            <div><dt>UX</dt><dd>리서치 · IA<br>디자인 시스템</dd></div>
+            <div><dt>STORY</dt><dd>희곡을 쓰고<br>무대에 서는 사람</dd></div>
+          </dl>
+        </aside>
+      </div>
+      <a class="scroll-cue" href="#work" data-cursor="SCROLL">작업 보기 <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <div class="marquee" data-theme="accent" aria-hidden="true">
+      <div class="marquee-track">
+        <span>AI PRODUCT</span><i>✳</i><span>SERVICE PLANNING</span><i>✳</i><span>UX RESEARCH</span><i>✳</i><span>PROTOTYPING</span><i>✳</i><span>STORYTELLING</span><i>✳</i>
+        <span>AI PRODUCT</span><i>✳</i><span>SERVICE PLANNING</span><i>✳</i><span>UX RESEARCH</span><i>✳</i><span>PROTOTYPING</span><i>✳</i><span>STORYTELLING</span><i>✳</i>
+      </div>
+    </div>
+
+    <!-- ============ WORK ============ -->
+    <section id="work" class="work pad" data-theme="dark">
+      <header class="section-head">
+        <p class="eyebrow">01 / SELECTED WORK</p>
+        <h2 class="section-title" data-split>묻고, 설계하고,<br><span class="hl">직접 만듭니다.</span></h2>
+        <p class="section-lead" data-reveal>어떤 질문에서 출발했는지,<br>어떤 역할을 맡아 무엇을 만들었는지.<br>다섯 개의 프로젝트.</p>
+      </header>
+      <div class="projects" id="projects"></div>
+    </section>
+
+    <!-- ============ DEMO & STAGE ============ -->
+    <section id="demo" class="reel-section" data-theme="dark">
+      <div class="reel-pin">
+        <header class="reel-head pad">
+          <p class="eyebrow">02 / DEMO &amp; STAGE</p>
+          <h2 class="section-title" data-split>움직이는 것으로<br><span class="hl">보여 드립니다.</span></h2>
+          <p class="reel-count"><b>01</b> / <span id="reel-total">05</span></p>
+        </header>
+        <div class="reel-track" id="reel"></div>
+        <div class="reel-bar" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="about pad" data-theme="light">
+      <p class="eyebrow">03 / ABOUT</p>
+      <div class="about-grid">
+        <h2 class="section-title" data-split>이해하는 일과<br><span class="hl">만드는 일 사이.</span></h2>
+        <div class="about-text" data-reveal>
+          <p class="about-lead">왜 그렇게 행동하는지 묻는 습관은<br>무대에서 배웠습니다.</p>
+          <p>이화여자대학교에서 융합콘텐츠학과와 컴퓨터공학을 함께 전공하고 있습니다. 희곡을 쓰고 배우로 무대에 서며, 인물의 동기를 끝까지 파고드는 법을 익혔습니다. 같은 질문을 사용자에게 던집니다.</p>
+          <p>UX 리서치와 디자인 시스템으로 경험을 설계해 왔고, 지금은 LLM을 제품과 연구에 연결하는 일에 집중하고 있습니다. 기획서에서 멈추지 않고, 필요하면 직접 프로토타입을 만들어 확인합니다.</p>
+        </div>
+      </div>
+      <ol class="caps">
+        <li data-reveal><span class="cap-no">01</span><h3>ASK</h3><p>인터뷰, 페르소나, 데이터로<br>진짜 문제를 찾습니다.</p></li>
+        <li data-reveal><span class="cap-no">02</span><h3>DESIGN</h3><p>유저 플로우, IA, 디자인 시스템으로<br>경험의 구조를 짭니다.</p></li>
+        <li data-reveal><span class="cap-no">03</span><h3>BUILD</h3><p>React Native, LLM API로<br>직접 만들어 검증합니다.</p></li>
+      </ol>
+      <dl class="facts" data-reveal>
+        <div><dt>학력</dt><dd>이화여자대학교 융합콘텐츠학과 · 컴퓨터공학 복수전공 (2027.02 졸업 예정)</dd></div>
+        <div><dt>어학</dt><dd>OPIc AL · 영어 비즈니스 회화와 토론 가능</dd></div>
+        <div><dt>도구</dt><dd>Figma · React Native · JavaScript · HTML/CSS · Webflow · ChatGPT / Claude API 〔확인〕</dd></div>
+      </dl>
+    </section>
+
+    <!-- ============ ARCHIVE ============ -->
+    <section id="archive" class="archive pad" data-theme="light">
+      <header class="section-head">
+        <p class="eyebrow">04 / EXPERIENCE ARCHIVE · 2023 → 2026</p>
+        <h2 class="section-title" data-split>쌓아 온 경험,<br><span class="hl">이어지는 관심.</span></h2>
+      </header>
+      <div class="archive-list" id="archive-list"></div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="contact pad" data-theme="dark">
+      <p class="eyebrow">05 / CONTACT</p>
+      <h2 class="contact-title" data-split>LET'S BUILD<br><span class="hl">SOMETHING LOVED.</span></h2>
+      <div class="contact-row" data-reveal>
+        <button class="email" type="button" id="copy-email" data-cursor="COPY">
+          <span id="email-text">yunyun827@naver.com</span>
+          <small>클릭해서 복사</small>
+        </button>
+        <ul class="links" id="links"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer pad">
+    <span>© 2026 CHOI YUNSEO</span>
+    <a href="#top">맨 위로 ↑</a>
+  </footer>
+
+  <dialog id="case" aria-labelledby="case-title">
+    <button class="case-close" type="button" aria-label="닫기">닫기 ✕</button>
+    <div class="case-body" id="case-body"></div>
+  </dialog>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor-label"></span></div>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

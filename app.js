@@ -26,6 +26,16 @@
       '<div class="art art-paper"><span class="first">1ST AUTHOR</span><div class="sheet">' +
       '<div class="t">Pally</div><i></i><i></i><i></i><i></i><i></i><i></i><i></i>' +
       '<span class="stamp">UNDER REVIEW</span></div></div>',
+    persona:
+      '<div class="art art-persona"><div class="pp">' +
+      '<div class="pc"><b>BASIC PROMPT</b><span class="chip">역할</span><p class="resp">“네, 그렇습니다.”</p></div>' +
+      '<div class="pc on"><b>ADLER-BASED PROMPT</b><span class="chip">역할</span><span class="chip a">목표</span><span class="chip a">주어진 상황</span><span class="chip a">관계</span><span class="chip a">행동</span><p class="resp">“…그 일이라면, 제가 먼저 말씀드렸어야 했죠.”</p></div>' +
+      '</div><span class="art-caption">illustration</span></div>',
+    stage:
+      '<div class="art art-stage"><div class="sg">' +
+      '<div class="bars"><div class="bar" style="--h:38%"><em>약 16만</em><span>평균 회차</span></div><div class="bar hi" style="--h:100%"><em>약 42만</em><span>이벤트 회차</span></div></div>' +
+      '<div class="tix"><div class="ticket"><b>ADMIT ONE</b><span>현장 예매 수익</span></div><div class="pola"><i></i><span>B-CUT</span></div></div>' +
+      '</div></div>',
     chat:
       '<div class="art art-chat"><div class="phone">' +
       '<div class="cap">MATE</div>' +

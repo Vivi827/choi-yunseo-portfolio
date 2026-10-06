@@ -236,6 +236,30 @@ button { font: inherit; color: inherit; }
   .art-chat .b:last-child { display: none; }
   .art-chat .cap { margin-bottom: 0; }
 }
+.art-persona { background: linear-gradient(150deg, #1b2440, #0f1320); }
+.art-persona .pp { width: 88%; display: grid; grid-template-columns: 1fr 1.35fr; gap: 14px; align-items: stretch; }
+.art-persona .pc { background: #20283f; border-radius: 10px; padding: 14px; display: flex; flex-wrap: wrap; gap: 6px; align-content: flex-start; color: var(--on-dark); }
+.art-persona .pc.on { background: #233259; box-shadow: 0 0 0 1px var(--accent); }
+.art-persona .pc b { width: 100%; font-family: var(--font-display); font-size: clamp(10px, .95vw, 12px); letter-spacing: .12em; color: var(--muted-dark); }
+.art-persona .pc.on b { color: var(--accent-soft); }
+.art-persona .chip { font-size: clamp(10px, .95vw, 12px); padding: 3px 9px; border-radius: 99px; border: 1px solid rgba(237,240,247,.25); }
+.art-persona .chip.a { background: var(--accent); border-color: var(--accent); color: #fff; }
+.art-persona .resp { width: 100%; margin: 10px 0 0; font-size: clamp(11px, 1.05vw, 14px); line-height: 1.45; color: var(--on-dark); opacity: .85; }
+.art-stage { background: radial-gradient(120% 90% at 20% 0%, #3a1f2e, #140f17); }
+.art-stage .sg { width: 86%; display: grid; grid-template-columns: 1.2fr 1fr; gap: 6%; align-items: end; height: 72%; }
+.art-stage .bars { display: flex; gap: 14%; align-items: flex-end; height: 100%; padding: 0 6%; border-bottom: 1px solid rgba(255,255,255,.25); }
+.art-stage .bar { flex: 1; height: var(--h); background: rgba(255,255,255,.18); border-radius: 6px 6px 0 0; position: relative; }
+.art-stage .bar.hi { background: linear-gradient(180deg, #ff7a59, #e2406a); }
+.art-stage .bar em { position: absolute; top: -1.6em; left: 0; right: 0; text-align: center; font-style: normal; font-family: var(--font-display); font-weight: 800; color: #fff; font-size: clamp(12px, 1.4vw, 18px); }
+.art-stage .bar span { position: absolute; bottom: -1.7em; left: -20%; right: -20%; text-align: center; font-size: clamp(9px, .9vw, 12px); color: rgba(255,255,255,.7); white-space: nowrap; }
+.art-stage .tix { display: grid; gap: 14px; justify-items: center; align-self: center; }
+.art-stage .ticket { background: #f6e7c8; color: #3a1f2e; padding: 12px 18px; border-radius: 6px; transform: rotate(-6deg); text-align: center; position: relative; -webkit-mask: radial-gradient(circle 8px at 0 50%, transparent 98%, #000) left / 51% 100% no-repeat, radial-gradient(circle 8px at 100% 50%, transparent 98%, #000) right / 51% 100% no-repeat; mask: radial-gradient(circle 8px at 0 50%, transparent 98%, #000) left / 51% 100% no-repeat, radial-gradient(circle 8px at 100% 50%, transparent 98%, #000) right / 51% 100% no-repeat; }
+.art-stage .ticket b { display: block; font-family: var(--font-display); letter-spacing: .14em; font-size: clamp(11px, 1.2vw, 15px); }
+.art-stage .ticket span { font-size: clamp(9px, .85vw, 11px); }
+.art-stage .pola { background: #fff; padding: 6px 6px 18px; width: 42%; transform: rotate(5deg); box-shadow: 0 10px 24px rgba(0,0,0,.4); text-align: center; }
+.art-stage .pola i { display: block; aspect-ratio: 1; background: linear-gradient(160deg, #5b8cff, #a66ce8); }
+.art-stage .pola span { display: block; font-family: var(--font-display); font-size: 10px; letter-spacing: .14em; color: #555; margin-top: 4px; }
+@media (max-width: 600px) { .art-persona .resp { display: none; } }
 .art-caption { position: absolute; left: 12px; bottom: 10px; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; opacity: .5; font-family: var(--font-display); }
 
 /* ---------- demo reel (가로 스크롤) ---------- */

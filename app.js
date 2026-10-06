@@ -15,12 +15,12 @@
   var ART = {
     script:
       '<div class="art art-script"><div class="sheet">' +
-      '<div class="slug">S#12. 연습실 — 밤</div>' +
-      '<div class="who">인물</div>' +
-      '<div class="say">괜찮아. 나는 <mark>원래 혼자가 편해.</mark></div>' +
-      '<div class="note" style="top:44%"><b>✳ QUESTION</b>이 말은 진심일까요, 방어일까요? 앞 장면의 선택과 비교해 보세요.</div>' +
-      '<div class="who memo" style="margin-top:3.2em">배우 메모</div>' +
-      '<div class="say memo">‘원래’에 힘을 줄지 고민 중…</div>' +
+      '<div class="slug">BEAT 3 · 3막 · 로파힌</div>' +
+      '<div class="who">로파힌</div>' +
+      '<div class="say">제가 샀습니다. <mark>이제 이 동산은 제 것입니다.</mark></div>' +
+      '<div class="note" style="top:44%"><b>✳ AI 드라마터그 · 대조 레퍼런스</b>같은 대사를 승리가 아닌 죄책감으로 연기한 공연 사례가 있어요.</div>' +
+      '<div class="who memo" style="margin-top:3.2em">목적 · 행동동사</div>' +
+      '<div class="say memo">인정받기 위해 · 상대를 압도하다</div>' +
       '</div><span class="art-caption">illustration</span></div>',
     paper:
       '<div class="art art-paper"><span class="first">1ST AUTHOR</span><div class="sheet">' +
